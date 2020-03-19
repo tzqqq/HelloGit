@@ -12,6 +12,8 @@ my first git
 
 ```java
 
+echo tzq
+
 today is nice!
 
 ```
