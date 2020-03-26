@@ -7,6 +7,9 @@
 			width: 100%;
 			height: 400px;
 		}			
+		table{
+			border-collapse: collapse;
+		}
 		</style>>
 	</head>
 	<body>
@@ -42,13 +45,13 @@
 
 						<dl>
 							<dt>年龄</dt>
-							<dd>22</dt>
+							<dd>22</dd>
 							<dt>所在城市</dt>
-							<dd>南京</dt>
+							<dd>南京</dd>
 							<dt>邮箱</dt>
-							<dd>1575116355@qq.com</dt>
+							<dd>1575116355@qq.com</dd>
 							<dt>手机</dt>
-							<dd>18360221629</dt>
+							<dd>18360221629</dd>
 						</dl>
 					</div>
 					<footer class="media">
@@ -93,11 +96,55 @@
 				<div class="small"></div>
 			</div>
 		</section>
-		<iframe name="xxx" src="#" frameborder="0"></iframe>
-		<a target="xxx" href="http://qq.com">QQ</a>
-		<a target="xxx" href="http://sina.com">新浪</a>
 		<hr/>
 		<iframe src="./index2.html"  name="baidu"width="100%" height="400px" frameborder="0"></iframe>
+		<form action="action" method="post">
+			<label>用户名<input type="text" name="username" ></label>
+			<label>密码 <input type="password" name="password"></label>
+			喜欢的水果
+			<label><input type="checkbox" name="fruit" value="orange">橘子</label>
+			<label><input type="checkbox" name="fruit" value="banana">香蕉</label>
+			爱我
+			<label><input type="radio" name="loveme" value="yes">yes</label>
+			<label><input type="radio" name="loveme" value="no">no</label>
+			<hr>
+			<textarea style="resize:none;width=100px;height=100px;"name="爱好"></textarea>
+			<input type="submit" value="提交">
+		</form>
+		<table border=1>
+			<colgroup>
+				<col width="100" />
+				<col width="80" />
+				<col width="120" />
+			</colgroup>
+			<thead>
+				<tr>
+					<th></th><th>姓名</th><th>成绩</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1</th><td>小明</td><td>96</td>
+				</tr>
+				<tr>
+					<th>2</th><td>小红</td><td>98</td>
+				</tr>
+				<tr>	
+					<th>平均分</th><td></td><td>97</td>	
+				</tr>
+				<tr>
+					<th>总分</th><td></td><td>194</td>
+				</tr>
+				
+			</tbody>
+			<tfoot>
+				
+			</tfoot>
+			
+			
+			
+			
+		</table>
 		</body>
 
 
