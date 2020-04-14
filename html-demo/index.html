@@ -1,65 +1,88 @@
 <!DOCTYPE html >
 <html>
 	<head>
-		<tittle>汤子晴的个人简历</tittle>
-		<link rel="stylesheet" href="./a.css">
+		<link rel="stylesheet" href="./a.css" type="text/css" charset="UTF-8">
+		<script src="//at.alicdn.com/t/font_1754054_nj983jy1fp.js"></script>
+		<style type="text/css">
+			.icon{
+				width: 1em;
+				height: 1em;
+				vertical-align: -0.15em;
+				fill: currentcolor;
+				overflow: hidden;
+			}
+		</style>
 	</head>
 	<body>
-		<div class="topNavBar“>
-		<a class="logo" href="#" alt="logo">
-			<span class="rs">RS</span>
-			<span class="card">card</span>
-		</a>
-		<nav>
-			<ul class="clearfix">
-				<li><a href="#">ABOUT</a></li>
-				<li><a href="#">SKILLS</a></li>
-				<li><a href="#">EXPERIENCE</a></li>
-				<li><a href="#">PRICING</a></li>
-				<li><a href="#">BLOG</a></li>
-				<li><a href="#">CALENDAR</a></li>
-				<li><a href="#">CONTACT</a></li>
-				<li><a href="#">OTHER</a></li>
-				<li><a href="#">ALL DEMOS</a></li>
-			</ul>
-		</nav>
+		<div class="topNavBar" >
+		<div class="topNavBar-inner clearfix" >
+			<a class="logo" href="#" alt="logo" style="float:left">
+				<span class="rs">RS</span><span class="card">card</span>
+			</a>
+			<nav style="float:right">
+				<ul class="clearfix">
+					<li><a href="#">关于</a></li>
+					<li><a href="#">技能</a></li>
+					<li><a href="#">作品</a></li>
+					<li><a href="#">博客</a></li>
+					<li><a href="#">日历</a></li>
+					<li><a href="#">联系方式</a></li>
+					<li><a href="#">其他</a></li>
+				</ul>
+			</nav>
+			
 		</div>
-		<div class="banner" style="background-image:url(#)"></div>
-		<main>
-			<div class="card">
+		</div>
+		<div class="banner" style="background-image:url(./img/rs-cover.jpg)">
+			<div class="mask"></div>
+		</div>
+		<main style="margin-top: -350px;">
+			<div class="userCard">
+				<div class="pictureAndText clearfix">
 				<div class="picture">
-					<img src="" alt=" 头像">
-				</div>
-				<div class="text">
-					<div class="profile">
-						<span class="welcome">Hello</span>
-						<h1>汤子晴</h1>
-						<p>前端开发工程师</p>
-						<hr>
-
-						<dl>
-							<dt>年龄</dt>
-							<dd>22</dd>
-							<dt>所在城市</dt>
-							<dd>南京</dd>
-							<dt>邮箱</dt>
-							<dd>1575116355@qq.com</dd>
-							<dt>手机</dt>
-							<dd>18360221629</dd>
-						</dl>
+						<img src="./img/avatar.jpeg" height="347px" width="299px" alt=" 头像">
 					</div>
-					<footer class="media">
-						<a href="#"><img src="#" alt="..."></a>
-						<a href="#"><img src="#" alt="..."></a>
-						<a href="#"><img src="#" alt="..."></a>
-						<a href="#"><img src="#" alt="..."></a>
-						<a href="#"><img src="#" alt="..."></a>
-						<a href="#"><img src="#" alt="..."></a>
-						<a href="#"><img src="#" alt="..."></a>
-					</footer>
+					<div class="text">
+						<div class="profile">
+							<span class="welcome">Hello
+								<span class="triangle"></span>
+							</span>
+							<h1>汤子晴</h1>
+							<p>前端开发工程师</p>
+							<hr>
+				
+							<dl>
+								<dt>年龄</dt>
+								<dd>22</dd>
+								<dt>所在城市</dt>
+								<dd>南京</dd>
+								<dt>邮箱</dt>
+								<dd>1575116355@qq.com</dd>
+								<dt>手机</dt>
+								<dd>18360221629</dd>
+							</dl>
+						</div>
+						
+					</div>
+					
 				</div>
+				<footer class="media">
+					<a href="#"><img src="#" alt="">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-weibo"></use>
+						</svg>
+					
+					</a>
+					<a href="#"><img src="#" alt="">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-github"></use>
+						</svg>
+						
+					</a>
+				</footer>	
+				
 			</div>
-			<a class="button" href="#">下载PDF简历</a>
+			<a class="button" href="./1.pdf" target="_blank" download="">下载PDF简历</a>
 			<p>汤子晴</p>
 		</main>
 		<section>
